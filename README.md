@@ -1,4 +1,3 @@
-# neural_net
 # Bank Term Deposit Subscription
 
 ## Problem Overview
@@ -44,7 +43,7 @@ To address this:
 
 - Data is balanced. SMOTE is used on training data
 - This helps improve minority class learning by generating synthetic samples
-- 
+
 ---
 
 ## Model Training
@@ -70,18 +69,4 @@ The model was evaluated using:
 - Performance on the minority class (subscribers) is comparatively lower
 - This indicates that:
   - The dataset has class imbalance
-  - The classes are not perfectly separable
   - Logistic Regression may underfit complex behavioral patterns
-
----
-
-## Dataset
-
-Dataset link:  
-https://drive.google.com/file/d/18KwSR9aVTZRNaOVF76VE9USSEkqnYzzQ/view?usp=sharing
-
----
-
-## Author
-
-- Your Name
